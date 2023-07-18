@@ -195,8 +195,67 @@ nav ul li img{
 }
 .video-item img{
     width: 100%; 
+    cursor: pointer;
 }
 .video-item p{
     color: var(--text-color-3);
     margin: 20px 0;
+}
+/*------------------ end of videos section ------------------- */
+
+.instantly {
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.instant-item{
+    width: 550px;
+}
+.instant-item img{
+    width: 100%;
+    height: 100%;
+}
+
+.height-instant-img{
+    position: absolute;
+}
+.bottom-position-img{
+   position: relative;
+   top: 400px;
+   left: -100px;
+}
+ 
+.bottom-position-img img{
+    width: 300px;
+}
+
+/*------- end of instant section  -------------*/
+.careers{
+    background: var(--primery-color);  
+    padding-left: 140px;
+}
+.career-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.career-container img{
+    width: 100%; 
+
+}
+
+.career-item{
+   width:50%
+}
+.career-item h2{
+    color: #fff;
+    font-size: 40px;
+}
+.career-item p{
+    margin: 20px 0;
+    color: #efefef;
+    line-height: 1.5;
 }

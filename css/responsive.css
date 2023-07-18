@@ -27,6 +27,16 @@
         .gamer-container{
             justify-content:center;
         }
+        .career-container{
+            flex-wrap: wrap;
+        }
+        .careers{
+            padding: 10vw ;
+        }
+        .career-item{
+            width:100%
+         }
+         
 }
 
 @media screen and (max-width:576px) {
