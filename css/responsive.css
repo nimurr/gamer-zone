@@ -1,0 +1,36 @@
+
+@media screen and (max-width:992px) {
+       
+        .navber{
+            flex-direction: column;
+        }
+        nav ul{
+           flex-direction: column;
+           margin: 20px 0;
+           gap: 15px;
+        }
+        .hero{
+            margin: 50px 0;
+            background: none;
+        }
+        .hero-container{
+           display: flex;
+           gap: 30px;
+           flex-direction: column-reverse;
+        }
+        .gamer-container{
+            flex-wrap: wrap;
+        }
+        .gamer-item img{
+            max-width:500px;
+        }
+        .gamer-container{
+            justify-content:center;
+        }
+}
+
+@media screen and (max-width:576px) {
+        .gamer-item img{
+            max-width:320px;
+        }
+}
