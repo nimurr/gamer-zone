@@ -169,7 +169,7 @@ nav ul li img{
     background: var(--primery-color);
     color: #fff;
 }
-/* end of gamers section  */
+/*----------------- end of gamers section  ------------------*/
 
 .online-video{
     margin: 50px 0;
@@ -234,7 +234,7 @@ nav ul li img{
 /*------- end of instant section  -------------*/
 .careers{
     background: var(--primery-color);  
-    padding-left: 140px;
+    padding-left: 10vw;
 }
 .career-container{
     display: flex;
@@ -259,3 +259,59 @@ nav ul li img{
     color: #efefef;
     line-height: 1.5;
 }
+.career-list {
+    display: flex;
+    justify-content: space-between;
+}
+.career-list ul li{
+    line-height: 2;
+    color: #efefef;
+}
+.career-list-2 {
+    text-align: right;
+}
+.career-btn{
+    color: var(--primery-color);
+    margin-top: 20px;
+}
+
+/*---------- end of career section  ----------------*/
+
+.games-container{
+    padding: 50px 0;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.game-item{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 2px solid #fff;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.game-item img{
+    width: 50px;
+    margin-right: 5px;
+}
+.game-item a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: var(--text-color-3);
+}
+
+.game-item:hover {
+    border: 2px solid var(--primery-color);
+     
+}   
+.game-item:hover a{
+    color: var(--primery-color);
+}
+
+
+/*---------------- end of games section --------------*/

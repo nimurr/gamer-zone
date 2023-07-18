@@ -43,4 +43,7 @@
         .gamer-item img{
             max-width:320px;
         }
+        .career-list {
+            flex-direction: column;
+        }
 }
