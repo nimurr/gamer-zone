@@ -119,7 +119,7 @@ nav ul li img {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 60px;
+    font-size: 4rem;
     font-weight: 800;
 
 }
@@ -179,7 +179,7 @@ nav ul li img {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 30px;
+    font-size: 3rem;
 }
 
 .gamer-item p {
@@ -217,6 +217,7 @@ nav ul li img {
 
 .video-heading h2 {
     font-size: 40px;
+    
 }
 
 .video-heading h2 span {
@@ -348,7 +349,7 @@ nav ul li img {
 
 .instant-text h2 {
     font-size: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 20px; 
 }
 
 .instant-text span {
