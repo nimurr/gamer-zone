@@ -9,9 +9,8 @@
            margin: 20px 0;
            gap: 15px;
         }
-        .hero{
-            margin: 50px 0;
-            background: none;
+        .hero {
+            background-position: bottom left;
         }
         .hero-container{
            display: flex;
@@ -20,13 +19,15 @@
         }
         .gamer-container{
             flex-wrap: wrap;
+            justify-content:center;
+        }
+        .gamer-item{
+            text-align: center;
         }
         .gamer-item img{
             max-width:500px;
         }
-        .gamer-container{
-            justify-content:center;
-        }
+         
         .career-container{
             flex-wrap: wrap;
         }
@@ -36,6 +37,25 @@
         .career-item{
             width:100%
          }
+         .career-list-2 {
+            text-align: left;
+        }
+         .footer-container{
+            width: 70%; 
+        }
+        .footer-container ul{
+           flex-wrap: wrap;
+        }
+        .instant-content{
+            order: 1;
+        }
+        .instant-text { 
+            text-align: center;
+        }
+        .instant-img{
+            width: 70%;
+            margin: auto;
+        }
          
 }
 
@@ -46,4 +66,17 @@
         .career-list {
             flex-direction: column;
         }
+        .instantly {
+            grid-template-columns: repeat(auto-fit , minmax(300px , 1fr));
+        }
+        .instant-img{
+            width: 100%; 
+        }
+        .video-heading h2{
+            font-size: 25px;
+        }
+        .video-heading p{
+            margin-top: 13px;
+        }
+        
 }
