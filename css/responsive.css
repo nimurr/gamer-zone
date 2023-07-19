@@ -64,7 +64,7 @@
       
     .game-overview-item:first-child {
             flex-basis: 100%;
-          
+          text-align: center;
     }
         
       .game-overview-item:last-child {
