@@ -373,7 +373,7 @@ nav ul li img {
   .game-overview-thumb .img-large {
     /* position: relative; */
     width: 100%;
-    
+
   }
   .img-small {
     max-width: 50%;
@@ -499,7 +499,7 @@ nav ul li img {
 }
 
 .game-item img {
-    width: 50px;
+    width: 40px;
     margin-right: 5px;
 }
 
