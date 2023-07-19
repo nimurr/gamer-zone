@@ -62,12 +62,11 @@
         flex-direction: column;
       }
       
-      
-      .game-overview-item:first-child {
-        width: 50vw;
-        text-align: center;
-        margin-bottom: 20px;
-      }
+    .game-overview-item:first-child {
+            flex-basis: 100%;
+          
+    }
+        
       .game-overview-item:last-child {
         flex-basis: 50%;
       }
@@ -138,5 +137,7 @@
       .game-overview-thumb {
         padding: 0px 0 45px 75px;
     }
-      
+    .game-overview-item:first-child {
+        flex-basis: 100%;
+      }
 }

@@ -327,6 +327,7 @@ nav ul li img {
 
 
 
+/*------------------ end of videos section ------------------- */
 
 
 
@@ -383,47 +384,8 @@ nav ul li img {
   }
   
 
-/*------------------ end of videos section ------------------- */
 
-.instantly {
-    margin: 50px 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    align-items: center;
-    justify-content: center;
-    grid-gap: 30px;
-}
-
-.instant-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.instant-text {
-    max-width: 250px;
-    text-align: right;
-}
-
-.instant-text h2 {
-    font-size: 30px;
-    margin-bottom: 20px; 
-}
-
-.instant-text span {
-    color: var(--primery-color);
-}
-
-.instant-text p {
-    color: var(--text-color-3);
-    line-height: 1.5;
-}
-
-.fluid-imgs {
-    width: 100%;
-}
-
-/*------- end of instant section  -------------*/
+/*------- end of game overview section  -------------*/
 .careers {
     background: var(--primery-color);
     padding-left: 10vw; 
