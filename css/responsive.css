@@ -9,14 +9,12 @@
         margin: 20px 0;
         gap: 15px;
     }
-    .hero{
-        background: none;
-    }
+   
      
 
     .hero-container {
         display: flex;
-        gap: 30px;
+        gap: 50px;
         flex-direction: column-reverse;
     }
 
@@ -77,7 +75,10 @@
 }
 
 @media screen and (max-width:576px) {
-    
+    .hero{
+        background-position: bottom center;
+        background-size: 500px 350px;
+    }
     .gamer-item img {
         max-width: 320px;
         
@@ -125,4 +126,17 @@
     .overview-title {
         font-size: 2rem;
       }
+      .game-overview-thumb .img-large { 
+        width: 200px;
+        height: 250px;
+      }
+      .img-small {
+        max-width: 25%; 
+        bottom: 10%;
+        left: 20%;
+      }
+      .game-overview-thumb {
+        padding: 0px 0 45px 75px;
+    }
+      
 }
